@@ -1,0 +1,41 @@
+/* css variabler - kun farver, typografi og font-weights */
+
+
+:root {
+/* Farver */
+    --primary-color: black;
+    --seconday-color: white;
+
+
+/* Typografi  */
+    --font-family:Verdana, Geneva, Tahoma, sans-serif;
+    --font-size-small: 13px;
+    --font-size-base: 16px;
+    --font-size-medium: 18px;
+    --font-size-large: 20px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 28px;
+    --font-size-hero: 4.5rem;
+    --font-size-hero-tablet: 3rem;
+    --font-size-hero-mobile: 2.5rem;
+
+
+/* Font weights */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;    
+}
+
+
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+}
